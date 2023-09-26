@@ -1,13 +1,52 @@
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <h3>Full Name*:</h5>
-    <input type="text" name="full_name" placeholder="FirstName LastName" />
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <h1>Travel reservation form</h1>
+  <h4>* denotes mandotory</h4>
 
-
+  <label>Full Name*:</label>
+  <br>
+  <input type="text" name="full_name" placeholder="FirstName LastName" />
+  <br>
+  <label>Email address*:</label>
+  <br>
+  <input type="email" name="emailadd" placeholder="EMAIL_ADDRESS" />
+  <br>
+  <label>Select Tour Package*:</label>
+  <br>
+  <select name="select">
+    <option value="valor1" selected>Goa</option>
+    <option value="valor2">Andhra Pradesh</option>
+    <option value="valor3">Haryana</option>
+    <option value="valor4">Assam</option>
+  </select>
+  <br>
+  <label>Arrival date*:</label>
+  <br>
+  <input type="date" name="dateadd" placeholder="m/d/y" />
+  <br>
+  <label>Number of persons*:</label>
+  <br>
+  <input type="number" name="numperson" placeholder="UNKNOWN_TYPE" />
+  <br>
+  <label>What would you want to avail?*</label>
+  <br>
+  <label>Boarding</label>
+  <input type="checkbox" id="boarding" name="interest" value="boarding" />
+  <br>
+  <label>Fooding</label>
+  <input type="checkbox" id="fooding" name="interest" value="fooding" />
+  <br>
+  <label>Sight Seeing</label>
+  <input type="checkbox" id="sightseeing" name="interest" value="sightseeing" />
+  <br>
+  <label>Discount Coupon code:</label>
+  <br>
+  <input type="text" name="coupon_code" placeholder="UNKNOWN_TYPE" />
 
   
+</body>
 </html>
